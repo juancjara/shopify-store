@@ -52096,6 +52096,7 @@ var ProductView = (function (_React$Component) {
       var image = _props$product.image;
       var name = _props$product.name;
       var price = _props$product.price;
+      var color = _props$product.color;
 
       return _react2['default'].createElement(
         _materialUi.Card,
@@ -52105,7 +52106,7 @@ var ProductView = (function (_React$Component) {
           null,
           _react2['default'].createElement('img', { src: image })
         ),
-        _react2['default'].createElement(_materialUi.CardTitle, { title: name, subtitle: '$ ' + price }),
+        _react2['default'].createElement(_materialUi.CardTitle, { title: name + ' - ' + color, subtitle: '$ ' + price }),
         _react2['default'].createElement(
           _materialUi.CardActions,
           null,

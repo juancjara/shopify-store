@@ -16,10 +16,10 @@ app.get('/', (req, res) => {
 });
 
 var products = [
-    {image: 'https://placeholdit.imgix.net/~text?txtsize=33&txt=350%C3%97150&w=350&h=150', name: 'Aname', price: 4, color: 'Red'},
-    {image: 'https://placeholdit.imgix.net/~text?txtsize=33&txt=350%C3%97150&w=350&h=150', name: 'Bname', price: 5, color: 'Red'},
-    {image: 'https://placeholdit.imgix.net/~text?txtsize=33&txt=350%C3%97150&w=350&h=150', name: 'Cname', price: 1, color: 'Blue' },
-    {image: 'https://placeholdit.imgix.net/~text?txtsize=33&txt=350%C3%97150&w=350&h=150', name: 'Dname', price: 8, color: 'Blue'}
+    {image: 'https://placeholdit.imgix.net/~text?txtsize=33&txt=350%C3%97150&w=350&h=150', name: 'Ultra boost shoes', price: 4, color: 'Red'},
+    {image: 'https://placeholdit.imgix.net/~text?txtsize=33&txt=350%C3%97150&w=350&h=150', name: 'tubular runner shoes', price: 5, color: 'Red'},
+    {image: 'https://placeholdit.imgix.net/~text?txtsize=33&txt=350%C3%97150&w=350&h=150', name: 'superstar shoes', price: 1, color: 'Blue' },
+    {image: 'https://placeholdit.imgix.net/~text?txtsize=33&txt=350%C3%97150&w=350&h=150', name: 'flux shoes', price: 8, color: 'Blue'}
 ];
 
 

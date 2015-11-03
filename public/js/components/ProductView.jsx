@@ -11,13 +11,13 @@ import {
 class ProductView extends React.Component {
 
   render() {
-    let {image, name, price} = this.props.product;
+    let {image, name, price, color} = this.props.product;
     return (
       <Card className ="product-card">
         <CardMedia>
           <img src={image} />
         </CardMedia>
-        <CardTitle title={name} subtitle={`$ ${price}`} />
+        <CardTitle title={`${name} - ${color}`} subtitle={`$ ${price}`} />
         <CardActions>
           <RaisedButton
             label="buy one"
