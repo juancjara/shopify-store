@@ -51835,12 +51835,25 @@ var App = (function (_React$Component) {
   }
 
   _createClass(App, [{
+    key: 'handleClick',
+    value: function handleClick() {}
+  }, {
     key: 'render',
     value: function render() {
+      var openSource = _react2['default'].createElement(
+        'a',
+        {
+          target: '_blank',
+          href: 'https://github.com/juancjara/shopify-store' },
+        'Source Code'
+      );
       return _react2['default'].createElement(
         'div',
         null,
-        _react2['default'].createElement(_materialUi.AppBar, { title: 'Adibas', iconElementLeft: _react2['default'].createElement(_materialUi.IconButton, null) }),
+        _react2['default'].createElement(_materialUi.AppBar, {
+          title: 'Adibas',
+          iconElementLeft: _react2['default'].createElement(_materialUi.IconButton, null),
+          iconElementRight: openSource }),
         _react2['default'].createElement(_CatalogJsx2['default'], null)
       );
     }
